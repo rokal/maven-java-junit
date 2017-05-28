@@ -191,6 +191,10 @@ Nous venons d'ecrire notre premier cas de test.
 
 Pour executer notre test, nous allons laisser maven s'en charger:
 `mvn clean test` à la racine du projet devrait faire l'affaire
+(Un petit problem de configuration de maven s'est glissé et le la command précédente renvoie des erreurs. Cependant le code fonctionne bien et vous pouvez importer le projet maven dans un IDE comme eclipse et là , faites clique droit sur la classe de test , CalculatorTest, et choisir `run as JUnit test`)
+
+3. Autres ressources
+---
 
 
 [Bon guide pour maven](http://www.vogella.com/tutorials/ApacheMaven/article.html)
