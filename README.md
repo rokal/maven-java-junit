@@ -4,7 +4,9 @@ Le but ici est d'introduire les tests unitaires en java.
 Pour cela, nous allons partir d'un projet __maven__, inclure par la suite une librairie 
 de java pour réaliser nos tests unitaires: __JUnit__.
 
-1. Breve introduction a maven 
+---
+1. **Breve introduction a maven** 
+---
 
 En de mots simples, [maven](https://maven.apache.org) est un gestionnaire de __build__. C'est un outil developpe par la fondation apache dans le but de faciliter le développement de projet d'envergure en java. En somme, maven permet de gérer les dépendances externes de ton application 
 à d'autres librairies, structurer la gestion des versions des applications et surtout l'assemblage 
@@ -32,7 +34,8 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "dos"
 
 ```
 
-2. Creation du projet.
+---
+2. **Creation du projet.**
 ---
 
 A cette etape, vous devez avoir maven qui marche correctement. 
@@ -193,7 +196,8 @@ Pour executer notre test, nous allons laisser maven s'en charger:
 `mvn clean test` à la racine du projet devrait faire l'affaire
 (Un petit problem de configuration de maven s'est glissé et le la command précédente renvoie des erreurs. Cependant le code fonctionne bien et vous pouvez importer le projet maven dans un IDE comme eclipse et là , faites clique droit sur la classe de test , CalculatorTest, et choisir `run as JUnit test`)
 
-3. Autres ressources
+---
+3. **Autres ressources**
 ---
 
 
