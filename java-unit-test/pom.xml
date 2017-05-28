@@ -38,8 +38,6 @@
               <source>1.8</source>
               <target>1.8</target>
               <showDeprecation>true</showDeprecation>
-              <useIncrementalCompilation>false</useIncrementalCompilation>
-              <execution>C:\Users\Kalmogo\jdk8\bin\javaw.exe</execution>
           </configuration>
         </plugin>
       </plugins>
